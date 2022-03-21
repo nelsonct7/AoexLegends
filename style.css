@@ -1,0 +1,686 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    
+    width: 100%;
+    height: 40px;
+    background-color: rgb(70, 66, 66);
+    display: flex;
+    padding-top: 10px;
+  
+    flex-direction: row-reverse;
+}
+.apl{
+    width: 100px;
+    padding-left: 10px;
+}
+.uperimg{
+    padding-right: 10px;
+}
+.usrlogo{
+
+    width: 30px;
+    height: 30px;
+    color: rgb(88, 80, 80);
+   
+}
+.qstlogo{
+    width: 30px;
+    height: 30px;
+    color: rgb(88, 80, 80);
+}
+.ealogo{
+    width: 30px;
+    height: 30px;
+    color: rgb(88, 80, 80);
+}
+.head{
+    display: flex;
+    padding-top: 30px;
+    position: sticky;
+     top: 1;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+.labelhdr{
+    margin-top: 20px;
+    display: flex;
+    width: 100px;
+    height: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.lbl{
+    height: 10px;
+    margin-left: 10px;
+}
+.lbl1{
+    margin-left: 10px;
+    width: 100px;
+}
+.btnhdr{
+    margin-left: 800px;
+    width: 300px;
+    height: 40px;
+    background-color: red;
+}
+.hdbtn{
+    
+    width: 300px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hdbtn:hover{
+    width: 305px;
+    height: 45px; 
+}
+
+
+
+
+.imgyellow{
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    background-image: url("yel.jpg");
+    background-size: 1500px;
+}
+.ylwcontainor{
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+    width: 500px;
+    height: 500px;
+}
+.yl1{
+    margin-top: 100px;
+    width: 200px;
+    height: 130px;
+    background-size: 200px;
+    
+    background-image: url("apex-dark-logo.svg");
+}
+.yl2{
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 27px;
+    width: 500px;
+    height: 100px;
+}
+.yl3{
+    height: 100px;
+    padding: 10px;
+}
+
+.ybtn{
+    
+    width: 200px;
+    height: 57px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: black;    
+}
+.ybtn:hover{
+    width: 205px;
+    height: 62px;
+}
+
+.imgblack{
+    width: 100%;
+    height: 600px;
+    background-image: url("blackwarrior.jpg");
+    background-size: 1500px;
+}
+.inblack{
+    padding-top: 50px;
+    color: white;
+    margin-left: 700px;
+    width: 500px;
+    height: 500px;
+}
+.blt1{
+    padding-top: 150px;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    text-indent: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.blt2{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 20px;
+}
+.blt3{
+    
+    width: 600px;
+    height: 100px;
+    align-items: center;
+   
+}
+.blbtn{
+    border: none;
+    border-radius: 5px;
+    margin-left: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(233, 42, 42);
+    width: 150px;
+    height: 50px;
+}
+.blbtn:hover{
+    width: 155px;
+    height: 55px;
+}
+
+
+
+.imggray{
+    width: 100%;
+    height: 800px;
+    padding-top: 50px;
+    background-image: url("gray.jpg");
+    background-size: 1500px;
+}
+.ig1{
+    width: 500px;
+    height: 40px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+    margin-left: 550px;
+
+}
+.ig2{
+    
+    margin-top: 20px;
+    margin-left: 75px;
+ 
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+.ig21{
+    width: 390px;
+    height: 650px;
+    
+}
+.ig211{
+    width: 390px;
+    height: 250px;
+    background-image: url("yellgame.jpg");
+    background-size: 444px;
+}
+.ig212{
+    width: 390px;
+    height: 400px;
+    background-image: url("yltxt.png");
+    background-size: 900px;
+    cursor: pointer;
+}
+
+.ig22{
+    width: 390px;
+    height: 650px;
+    
+}
+.ig221{
+    width: 390px;
+    height: 250px;
+    background-image: url("redgame.png");
+    background-size: 444px;
+}
+.ig222{
+    width: 390px;
+    height: 400px;
+    background-image: url("rdtxt.png");
+    background-size: 900px;
+    cursor: pointer;
+}
+.ig23{
+    width: 390px;
+    height: 650px;
+    
+}
+.ig231{
+    width: 390px;
+    height: 250px;
+    background-image: url("redgungame.jpg");
+    background-size: 444px;
+}
+.ig232{
+    width: 390px;
+    height: 400px;
+    background-image: url("rguntxt.png");
+    background-size: 900px;
+    cursor: pointer;
+}
+
+.imgdarkgray{
+    width: 100%;
+    height: 550px;
+    padding-top: 200px;
+    background-image: url("darkgray.jpg");
+    background-size: 1500px;
+}
+.imgdk1{
+    
+    margin-left: 700px;
+    width: 600px;
+    height: 300px;
+    border-color: white;
+    border-radius: 2px;
+}
+.imgdk11{
+    
+    width: 600px;
+    height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+
+}
+.imgdk12{
+    width: 600px;
+    height: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    color: white;
+}
+.imgdk13{
+    margin-top: 50px;
+
+}
+.magbutn{
+width: 200px;
+height: 50px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+color: white;
+background-color: transparent;
+border-color: white;
+cursor: pointer;
+transition: transform .2s;
+}
+.magbutn:hover{
+    transform: scale(1.1);
+}
+
+
+.imgcity{
+    width: 100%;
+    height: 750px;
+    padding-top: 50px;
+    background-image: url("city.jpg");
+    background-size: 1500px;
+}
+.imgc1{
+   
+    width: 400px;
+    height: 30px;
+    margin-left: 500px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.imgc2{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 1000px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 27px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+}
+.imgc3{
+    display: flex;
+    margin-left: 75px;
+    width: 1200px;
+    height: 500px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.imgc31{
+width: 390px;
+height: 500px;
+
+}
+.imgc311{
+   
+    width: 390px;
+    height: 270px;
+    background-image: url("badge.png");
+    background-size: 400px;
+}
+.imgc312{
+    margin-top: 30px;
+    width: 390;
+    height: 100;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.imgc313{
+    margin-top: 30px;
+    width: 390;
+    height: 100;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.imgc32{
+    width: 390px;
+    height: 500px;
+   
+    
+    }
+.imgc321{
+    width: 390px;
+    height: 270px;
+    background-image: url("gun.png");
+    background-size: 400px;
+}
+
+.imgc322{
+    margin-top: 30px;
+    width: 390;
+    height: 100;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.imgc323{
+    margin-top: 30px;
+    width: 390;
+    height: 100;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.imgc33{
+    width: 390px;
+    height: 500px;
+    
+    }
+
+    .imgc331{
+        width: 390px;
+        height: 270px;
+        background-image: url("skull.png");
+        background-size: 400px;
+    }
+    .imgc332{
+        margin-top: 30px;
+        width: 390;
+        height: 100;
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+    }
+    .imgc333{
+        margin-top: 30px;
+        width: 390;
+        height: 100;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+    }
+
+.imgdown1{
+    width: 100%;
+    height: 700px;
+    display: flex ;
+    background-image: url("grtex.jpg");
+    background-size: 1500px;
+}
+.imgdown11{
+    margin-top: 30px;
+    margin-left: 90px;
+    width: 500px;
+    height: 600px;
+    
+}
+.imgdown12{
+    padding-top: 100px;
+    padding-left: 30px;
+    margin-left: 90px;
+    width: 700px;
+    height: 700px;
+}
+.imgdown121{
+    width: 500px;
+    height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    letter-spacing: -3px;
+    font-weight: bold;
+}
+.imgdown122{
+    width: 500px;
+    height: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.imgdown123{
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+}
+
+.mlbtn{
+    width: 250px;
+    height: 50px;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(228, 13, 13);
+    border-radius: 5px;
+    border: none;
+    transition: transform .2s;
+}
+.mlbtn:hover{
+    transform: scale(1.1);
+}
+.sqd{
+    width: 500px;
+    height: 600px;
+}
+
+
+
+
+.imgylwptrn{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("yellowpattr.jpg");
+    background-size: 1500px;
+}
+
+.ylwp1{
+    
+    margin-left: 450px;
+background-image: url("logo.png");
+width: 450px;
+height: 100px;
+
+}
+.ylwp2{
+display: flex;
+justify-content: center;
+width: 100%;
+height: 100px;
+font-size: 35px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+letter-spacing: -3px;
+}
+.ylwp3{
+    display: flex;
+justify-content: center;
+    width: 100%;
+    height: 100px;
+    font-size: 24px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+    
+    }
+.ylwp4{
+    display: flex;
+justify-content: center;
+    width: 100%;
+    height: 100px;
+    }
+    
+.ylwp5{
+    margin-left: 250px;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    }
+
+.ylbtn2{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: transform .2s;
+}
+.ylbtn2:hover{
+    transform: scale(1.1);
+}
+
+.footr{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(241, 234, 234);
+}
+.ft1{
+    width: 700px;
+    height: 150px;
+    
+}
+.ft11{
+    
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 650px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+
+.ft12{
+    
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 130px;
+    margin-right: 25px;
+    width: 550px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.ft13{
+    margin-left: 130px;
+    margin-top: 20px;
+    color: black
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 200px;
+    height: 20px;
+}
+.ft2{
+   
+    padding-top: 20px;
+    width: 700px;
+    height: 150px;
+    
+}
+.ft21{
+    width: 200px;
+    height: 50px;
+    margin-left: 410px;
+
+}
+.ft22{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 450px;
+    
+}
+.fbtn{
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 18px;
+
+
+}
+.earing{
+    width: 40px;
+    height: 40px;
+}
