@@ -684,3 +684,7 @@ justify-content: center;
     width: 40px;
     height: 40px;
 }
+.linker{
+    color: black;
+    text-decoration: none;
+}
